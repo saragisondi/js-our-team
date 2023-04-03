@@ -16,35 +16,35 @@ const team = [
   //2.
   {
     nome: 'Angela Lopez',
-    ruolo: 'social media manager',
+    ruolo: 'Social Media Manager',
     foto: `img/angela-lopez-social-media-manager.jpg`
     },
 
   //3.  
   {
     nome: 'Barbara Ramos',
-    ruolo: 'graphic designer',
+    ruolo: 'Graphic Designer',
     foto: `img/barbara-ramos-graphic-designer.jpg`
     },
 
   //4.  
   {
     nome: 'Scott estrada',
-    ruolo: 'web developer',
+    ruolo: 'Web Developer',
     foto: `img/scott-estrada-developer.jpg`
     },
 
   //5.  
   {
     nome: 'Walter Gordon',
-    ruolo: 'Office manager',
+    ruolo: 'Office Manager',
     foto: `img/walter-gordon-office-manager.jpg`
     },
 
   //6.  
   {
     nome: 'Wayne barnett',
-    ruolo: 'founder ceo',
+    ruolo: 'Founder Ceo',
     foto: `img/wayne-barnett-founder-ceo.jpg`
     }
 
@@ -73,7 +73,6 @@ for (let i = 0; i < team.length; i++) {
     li.append(img);
     img.src = member.foto;
     img.innerHTML =  "<img src ='" + member.foto + " ' >"
-    
 
   }
   console.log(team.member)
