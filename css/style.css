@@ -1,0 +1,46 @@
+/*GENERAL*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgba(0, 0, 0, 0.972);
+  font-family: fantasy;
+  color: white;
+}
+
+img{
+  width: 70%;
+  border-radius: 50%;
+  border: 1px solid white;
+  margin-top: 15px;
+}
+
+
+ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-top: 50px;
+}
+
+ul li{
+  width: calc(90% / 3);
+  margin: 10px;
+}
+
+h1{
+  margin-top: 50px;
+}
+
+.container{
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+
+}
